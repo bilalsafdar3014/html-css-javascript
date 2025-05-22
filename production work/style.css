@@ -1,0 +1,88 @@
+body {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #3498db;
+    /* Blue */
+    --secondary-color: #f25a2b;
+    --background-color: #f9f9f9;
+    --somebox-color: #f1f0ee;
+    --font-color-h: rgb(5, 38, 78);
+    --font-color-p: rgb(93, 111, 125);
+    /* Light Gray */
+}
+
+p {
+    color: var(--font-color-p);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: var(--font-color-h);
+    font-size: 40px;
+}
+
+h4 {
+    color: var(--font-color-h);
+    font-weight: 700;
+    font-weight: bold
+}
+
+.hovericon:hover {
+    border-style: solid;
+    border-color: antiquewhite;
+    width: 33px;
+    height: 33px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--font-color-h);
+}
+
+li {
+    color: rgb(45, 48, 51);
+    list-style-type: disc;
+    color: var(--font-color-p);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: black;
+    border: none;
+
+}
+
+.ref {
+    color: rgb(2, 47, 93);
+}
+
+.ref:hover {
+    color: var(--secondary-color);
+}
+
+svg {
+    color: white;
+}
+
+@media (max-width: 786px) {
+    #rightCarousel {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 316px) {
+    #heading {
+        text-underline-offset: 3px !important;
+    }
+
+}
